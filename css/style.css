@@ -82,8 +82,13 @@ h4{
     }
     nav{
         position: static;
-        font-size: 24px;
     }
+
+    nav a {
+        font-size: 24px;
+        margin: 10px;
+    }
+
     .pname{
         font-size: 36px;
     }
