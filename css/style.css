@@ -1,0 +1,154 @@
+body{
+    margin: 0px;
+    font-family: 'Niramit', sans-serif;
+}
+.banner{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    background-color: #Deaa88;
+}
+
+.profilepic {
+    border-radius: 50%;
+}
+
+.pname {
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+nav {
+    position: absolute;
+    right: 0px;
+    padding: 5px;
+}
+
+nav a {
+    color: #043844;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.bio {
+    margin: 5px;
+}
+
+h4{
+    text-align: center;
+}
+
+
+.dog-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    border: 2px solid #043844;
+}
+
+.dog-profile {
+    padding-right: 5.5px;
+}
+
+.dog-picture {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.appointmentMaker{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+
+}
+
+@media only screen and (min-width:768px ){
+    
+    .dog-section{
+        width: 75%;
+        right: 50%;
+    }
+
+    .dog-cards {
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner{
+        height: 150px;
+        justify-content: space-around;
+    }
+    nav{
+        position: static;
+        font-size: 24px;
+    }
+    .pname{
+        font-size: 36px;
+    }
+    .profilepic{
+        align-self: center;
+    }
+
+    .bio{
+        width: 75%;
+        left: 50%;
+        position: relative;
+        transform: translateX(-50%);
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+
+    }
+
+    .appointmentMaker {
+        margin-top: 10px;
+    }
+
+    h4{
+        margin-bottom:0px;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .dog-section {
+        width: 50%;
+        justify-content: center;
+    }
+
+    .dog-picture {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .dog-picture img {
+        margin: 5px;
+    }
+
+    .bio {
+        text-align: center;
+    }
+
+    .banner {
+        justify-content: start;
+    }
+
+    nav {
+        position: relative;
+        left: 55%;
+    }
+
+    nav a {
+        margin: 10px;
+        font-size: 24px;
+    }
+
+    .profilepic {
+        margin: 20px;
+    }
+}
